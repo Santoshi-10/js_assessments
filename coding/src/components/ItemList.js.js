@@ -1,10 +1,11 @@
 // src/components/ItemList.js
 import React from 'react';
 
-const ItemList = ({ items }) => {
+function ItemList() {
+  const items = ['Item 1', 'Item 2', 'Item 3'];
+
   return (
     <div>
-      <h1>Item List</h1>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
@@ -12,6 +13,6 @@ const ItemList = ({ items }) => {
       </ul>
     </div>
   );
-};
+}
 
 export default ItemList;

@@ -1,0 +1,12 @@
+QUESTION-17:
+What is the purpose of the shouldComponentUpdate() method in a React component?
+
+ANSWER:
+The shouldComponentUpdate() method in a React class component is a lifecycle method used to determine whether a component should re-render or not. It is a performance optimization technique that helps avoid unnecessary re-renders, which can be costly in terms of performance.
+Purpose of shouldComponentUpdate():
+1.Performance Optimization:
+By default, React re-renders a component whenever its state or props change. If you have a component that receives new props or state but doesn’t need to update its output, shouldComponentUpdate() can prevent unnecessary re-renders, thus improving performance.
+2.Control Over Re-rendering:
+It allows you to customize the rendering behavior of your component by specifying conditions under which it should update. This can be useful for optimizing components that render large amounts of data or have complex rendering logic.
+
+

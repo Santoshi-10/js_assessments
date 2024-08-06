@@ -1,0 +1,14 @@
+QUESTION-11:
+What is the purpose of the useEffect() hook in React?
+
+ANSWER:
+The useEffect hook in React serves the purpose of handling side effects in functional components. Side effects are operations that occur outside the scope of the function's main execution flow, such as data fetching, setting up subscriptions, or manually changing the DOM.
+
+Key purposes of 'useEffect':
+1.component lifecycle management:'userEffect' allows functional components to mimic the behavior of lifecycle methods found in class components (componentDidMount, componentDidUpdate, and componentWillUnmount).
+2.Side Effects: It is used to perform side effects in a React component. Common side effects include:
+
+Fetching data from an API
+Setting up a subscription
+Manually manipulating the DOM
+Updating state based on props or context changes

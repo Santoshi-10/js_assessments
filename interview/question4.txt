@@ -1,0 +1,6 @@
+QUESTION-4:
+How do you handle state changes in a React component?
+
+ANSWER:-
+Handling state changes in a React component is a fundamental part of creating dynamic and interactive UIs. State in React is used to store data that may change over time and affect the rendering of the component. Here’s how you can handle state changes in both functional and class components.
+Handling state changes in a React Component involves using the 'useState' hook(for functional components). or 'setState' method(for class compponents).

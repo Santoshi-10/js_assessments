@@ -1,0 +1,7 @@
+QUESTION-6:-
+How do you pass props to a React component?
+
+ANSWER:-
+In react, props(short for properties) are used to pass the data from a parent component to a child component.
+props are read-only and provide a way to configure a child component with data component with or callback functions.
+we can pass props to a functional component by providing attributes in the JSX when we render the component.

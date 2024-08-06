@@ -1,0 +1,15 @@
+QUESTION-9:
+What is the difference between a functional component and a class component in React?
+
+ANSWER:
+In React, functional components are simple JavaScript fuctions that accept props as an argument and return react elements.
+FUNCTIONAL COMPONENTS:-
+Definition:
+Functional components are simple JavaScript functions that accept props as an argument and return React elements.
+
+
+CLASS COMPONENTS:-
+DEFINITION:-
+Class components are ES6 classes that extend 'react.component' and have a render methods that returns React eleents.
+
+

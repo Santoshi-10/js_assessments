@@ -1,0 +1,13 @@
+QUESTION-3:
+What is the purpose of the render() method in a React component?
+
+ANSWER:
+Purpose of the render() Method
+Returning JSX: The render() method returns the JSX (JavaScript XML) that describes the component's structure and appearance. This JSX is then converted into actual DOM elements by React.
+
+Defining UI: It specifies the layout and content of the component, including any child components, HTML elements, and how they are arranged.
+
+Reactivity: Whenever the component's state or props change, the render() method is called again to update the UI accordingly. This ensures that the UI is always in sync with the component's data.
+
+How the render() Method Works
+Class Components: In class components, the render() method is a required method that must be implemented. It does not take any parameters but can access the component's props and state via this.props and this.state.

@@ -1,0 +1,14 @@
+QUESTION-10:-
+How do you use React Hooks?
+ANSWER:-
+React Hooks are functions that let you use state and other React features in functional components. 
+Introduced in React 16.8, they allow you to use state and lifecycle methods without writing class components. 
+By using hooks we can write cleaner,more maintainable and more functional components in react.
+
+
+useState: For managing state in functional components.
+useEffect: For handling side effects like fetching data, setting up subscriptions, and manually changing the DOM.
+useContext: For accessing context values.
+useReducer: For complex state logic or when the next state depends on the previous one.
+useMemo: For memoizing expensive calculations.
+useCallback: For memoizing callback functions

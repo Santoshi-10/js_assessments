@@ -1,0 +1,11 @@
+QUESTION 12:-
+How do you fetch data from an API in a React component?
+
+ANSWER:-
+Fetching data from an API in a React component can be done using various approaches, such as using the useEffect hook along with the fetch API or libraries like Axios. Here, I'll demonstrate how to fetch data using the fetch API in a functional component with the useEffect hook.
+
+Step-by-Step Guide
+1.Set Up State: Use the useState hook to set up state variables for storing the fetched data and any loading or error states.
+2.Use useEffect: Use the useEffect hook to trigger the data fetch when the component mounts.
+3.Fetch Data: Use the fetch API to retrieve data from the endpoint.
+4.Handle Loading and Errors: Provide feedback for loading and handle any errors that might occur during the fetch process

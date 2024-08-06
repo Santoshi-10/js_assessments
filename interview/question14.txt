@@ -1,0 +1,10 @@
+QUESTION-14:
+How do you use React Router for client-side routing?
+ANSWER:
+React Router is a standard library for routing in React applications. It enables the navigation among views of various components in a React application, allows changing the browser URL, and keeps the UI in sync with the URL. Here's how you can use React Router for client-side routing.
+STEP BY STEP PROCESS:
+1.Install React Router: Start by installing the React Router library.
+2.Set Up the Router: Configure the router in your main application component.
+3.Define Routes: Define the routes and corresponding components.
+4.Link Between Routes: Use Link or NavLink components to navigate between routes.
+

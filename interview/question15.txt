@@ -1,0 +1,14 @@
+QUESTION-15:
+What is the difference between useState() and useReducer() in React?
+
+ANSWER:
+In React, both useState and useReducer are hooks used to manage state in functional components, but they cater to different use cases. Here’s a detailed comparison of the two:
+
+useState:
+
+Purpose:
+useState is designed for managing simple state in functional components. It's ideal for straightforward state management scenarios.
+useReducer:
+Purpose:
+
+useReducer is designed for managing more complex state logic. It is useful when state transitions are complex or when state changes depend on previous state.

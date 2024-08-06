@@ -1,0 +1,10 @@
+ QUESTION-20:
+ How do you use React with TypeScript?
+
+ ANSWER:
+Create React App or Vite: Use these tools to quickly set up a new React project with TypeScript.
+Type Components: Define props and state using TypeScript interfaces or types.
+Event and State Management: Use TypeScript types for event handlers and state.
+Custom Hooks and Context: Utilize TypeScript with custom hooks and context for enhanced type safety.
+React Router: Type routes and route props effectively.
+

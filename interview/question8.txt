@@ -1,0 +1,8 @@
+QUESTION-8:-
+How do you handle events in a React component?
+
+ANSWER:-
+Handling events in React components involves setting up event handlers, 
+which are functions that respond to user actions such as clicks, form submissions, keyboard inputs, and more.
+
+

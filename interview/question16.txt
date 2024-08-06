@@ -1,0 +1,18 @@
+QUESTION-16:-
+How do you optimize the performance of a React application?
+
+ANSWER:
+Optimizing the performance of a React application involves a combination of techniques and best practices to ensure your app runs efficiently and provides a smooth user experience
+1.Minimize Re-renders:-
+Use React.memo: Wrap functional components with React.memo to prevent unnecessary re-renders when the props haven’t changed.
+2.Optimize Rendering:-
+Code Splitting: Use dynamic imports and React.lazy to load components only when needed, reducing the initial load time.
+3.optimize context Usage:
+Avoid Overuse of Context: Excessive context usage can lead to unnecessary re-renders. Use context only for data that is truly shared across many components.
+Use useMemo with Context Values: Memoize context values using useMemo to avoid unnecessary re-renders of context consumers.
+4. Optimize Component Updates:
+Batch State Updates: React batches state updates to minimize re-renders, but ensure that you’re leveraging this feature properly, especially in event handlers.
+Debounce and Throttle: Use debounce and throttle techniques to limit the frequency of expensive operations, such as API calls or large updates.
+
+
+

@@ -1,0 +1,17 @@
+QUESTION-13:
+
+What is the purpose of the useContext() hook in React?
+ANSWER:
+The useContext hook in React is used to access the value of a context directly from a functional component. Context provides a way to share values (like themes, user authentication, or application settings) across your component tree without having to pass props down manually at every level.
+
+Purpose of useContext
+Access Context Values:
+
+Allows you to consume context values within functional components without using the Context.Consumer component.
+Simplify Context Usage:
+
+Simplifies the process of accessing context values, making the code more readable and easier to manage compared to the traditional context API approach with Context.Consumer.
+Eliminate Prop Drilling:
+
+Provides a mechanism to avoid passing props through many layers of components, often referred to as "prop drilling."
+

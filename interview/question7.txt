@@ -1,0 +1,11 @@
+QUESTION7:-
+What is the purpose of the key prop in a React component?
+
+ANSWER:
+The 'key' prop in a react component is used to identify which items have changed,been added, or been removed from the list.
+This identification process enables react to efficiently update and render only the elements that need to be changed, rather than re-rendering the entire list.
+
+purpose of the 'key' prop:-
+1. Unique Identification: Each 'key' should be unique among siblings.React uses this key to track each element and it's associated data across renders.
+2.Performance Optimization:By using keys, React can quickly determine which items in a list have changed, allowing it to re-render only those items rather than the entire list.This results in better performance, espicially for large lists.
+3. Element Stability:Keys help maintain the identity of elements over time. This is particularly important for elements that have need to be preserved across re-renders.

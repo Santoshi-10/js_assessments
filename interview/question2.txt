@@ -1,0 +1,16 @@
+QUESTION2:
+How do you create a new React component?
+
+ANSWER:
+Creating a new React component involves defining a javascript function or class that returns React Component.
+FUNCTIONAL COMPONENT:-
+Fuctional Components are the most common and recommonded way to create componens in modern React.Thaey are simple JavaScriptfunctions that return JSX(JavaScript XML).
+CLASS COMPONENT:-
+Class components are ES6 classes that extend React.Component and must implement a render method that returns JSX.
+Steps to create a React Component:-
+1.Import React: At the top of your file, import React from the 'react' package.
+2.Define the Component:
+For functional components: Create a function that takes props as an argument and returns JSX.
+For class components: Create a class that extends React.Component and implements a render method that returns JSX
+3.Export the Component: Use the export default syntax to make the component available for use in other parts of your application.
+4.Use the Component: Import and use the component in another part of your application, passing any necessary props.

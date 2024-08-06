@@ -1,0 +1,12 @@
+QUESTION-18:
+How do you use React DevTools for debugging?
+ANSWER:
+React DevTools is a powerful tool for debugging and profiling React applications. It provides insights into component hierarchies, state, props, and performance metrics, making it easier to understand and debug your React app.
+Installation: Install React DevTools as a browser extension or standalone app.
+Component Tree: Use the “Components” tab to inspect and debug the component hierarchy, props, and state.
+Performance: Use the “Profiler” tab to analyze performance, track re-renders, and identify bottlenecks.
+Editing: Directly edit props and state in DevTools to test changes and debug issues.
+Search: Quickly find and inspect specific components using the search functionality.
+
+
+

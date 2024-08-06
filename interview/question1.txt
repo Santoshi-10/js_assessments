@@ -1,0 +1,23 @@
+1. What is the difference between var, let, and const in JavaScript?
+
+ans:
+In Javascript,var,let and const are used to declare variables.
+var:-
+"var" is fuction scoped. That means variable can only be accessed within the function.Out of the function we can't access it.
+if we have not declare a variable with "var" and want to print it will get the error like undefined.
+example:-
+var x=9;
+
+let:-
+"let" is block-scoped.This means that a variable declared with "let" is only available within the block(enclosed by'{}')in which it is declared.
+we can't use the variable before it's declaration.
+example:-
+let s="java script";
+
+
+const:-
+"const" is also block-scoped,just like 'let'.
+we can't use const variable witjout initilizing.
+once we declare a variable with 'const' must be initilized at the time of declaration.
+example:-
+const m=24.8;
